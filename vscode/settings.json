@@ -1,0 +1,83 @@
+{
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "metals.javaHome": "/Users/linusjern/.jabba/jdk/openjdk@1.17.0/Contents/Home",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer", // Makes the magic
+    "editor.formatOnSave": true // Optional
+  },
+  "latex-workshop.latex.outDir": "%DIR%/build",
+  "explorer.confirmDragAndDrop": false,
+  "rust-analyzer.diagnostics.disabled": ["unresolved-proc-macro"],
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "cSpell.enableFiletypes": ["!python", "!rust", "!scala"],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "monkeyC.developerKeyPath": "/Users/linusjern/creds/garmin/developer_key",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Monokai",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.list.smoothScrolling": true,
+  "workbench.activityBar.location": "bottom",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+  "workbench.statusBar.visible": false, // removes the status bar
+
+  // Symbol Config
+  "symbols.hidesExplorerArrows": false,
+
+  // Terminal Config
+  "breadcrumbs.enabled": false,
+
+  // Editor Config
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.lineHeight": 1.8,
+  "editor.fontWeight": "normal",
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.autohide": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.guides.indentation": false,
+  "editor.overviewRulerBorder": false,
+  "editor.folding": false,
+
+  // Explore File Config
+  "explorer.compactFolders": false,
+  "editor.fontSize": 15,
+  // "explorer.autoReveal": false,
+
+  // General Windows Config
+  "window.commandCenter": false
+}
