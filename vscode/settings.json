@@ -40,6 +40,7 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
+
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Monokai",
   "workbench.startupEditor": "newUntitledFile",
@@ -47,16 +48,13 @@
   "workbench.activityBar.location": "bottom",
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.layoutControl.enabled": false,
-  "workbench.editor.showIcons": false, // removes icon from opened files in tabs
-  "workbench.statusBar.visible": false, // removes the status bar
+  "workbench.editor.showIcons": false,
+  "workbench.statusBar.visible": false,
 
-  // Symbol Config
   "symbols.hidesExplorerArrows": false,
 
-  // Terminal Config
   "breadcrumbs.enabled": false,
 
-  // Editor Config
   "editor.inlineSuggest.enabled": true,
   "editor.fontFamily": "JetBrains Mono",
   "editor.lineHeight": 1.8,
@@ -73,11 +71,8 @@
   "editor.overviewRulerBorder": false,
   "editor.folding": false,
 
-  // Explore File Config
   "explorer.compactFolders": false,
   "editor.fontSize": 15,
-  // "explorer.autoReveal": false,
 
-  // General Windows Config
   "window.commandCenter": false
 }
