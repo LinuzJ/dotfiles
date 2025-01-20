@@ -119,3 +119,13 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+
+# Update PATH with software
+MAVEN_HOME=/opt/apache-maven-3.9.9
+export MAVEN_HOME
+SPARK_HOME=/opt/spark-3.5.3-bin-hadoop3
+export SPARK_HOME
+
+PATH=$PATH:$MAVEN_HOME/bin:$SPARK_HOME/bin
+export PATH

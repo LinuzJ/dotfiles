@@ -49,7 +49,7 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.layoutControl.enabled": false,
   "workbench.editor.showIcons": false,
-  "workbench.statusBar.visible": false,
+  // "workbench.statusBar.visible": false,
 
   "symbols.hidesExplorerArrows": false,
 
@@ -74,5 +74,22 @@
   "explorer.compactFolders": false,
   "editor.fontSize": 15,
 
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "python.defaultInterpreterPath": "/Users/linusjern/Uni/scalable-systems-and-data-management/project/data/.venv",
+  "[scala]": {
+    "editor.defaultFormatter": "scalameta.metals"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "cmake.showOptionsMovedNotification": false,
+  "git.openRepositoryInParentFolders": "never",
+  "[cuda-cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "cmake.cmakePath": "/scratch/work/jernl1/return/sheet4/cmake_module_load.sh"
 }
